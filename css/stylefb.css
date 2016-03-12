@@ -1,0 +1,113 @@
+/**
+ *	Typography and Globals
+ */
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 46px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #BCBBBB;
+}
+
+h3 {
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+a {
+	color: #747704;
+}
+
+
+/**
+ *	Header
+ */
+
+header {
+	padding: 10px 0;
+	margin-bottom: 20px;
+	border-bottom: 5px solid #BCBBBB;
+	display: flex;
+}
+
+.header-image {
+	flex: 1 1 50%;
+}
+
+.header-title {
+	flex: 1 1 50%;
+	text-align: right;
+}
+
+
+/**
+ *	Hero
+ */
+
+.hero-image {
+	width: 100%;
+}
+
+
+
+
+/**
+ *	Featured Work
+ */
+
+.featured-work-pieces {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.featured-work-piece {
+	flex: 1;
+	text-align: center;
+}
+
+.featured-work-piece > img {
+	width: 100%;
+}
+
+
+
+/**
+ *	Footer
+ */
+
+footer {
+	border-top: 3px solid #BCBBBB;
+	padding-top: 20px;
+	margin: 40px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.footer-left {
+	flex: 1 1 50%;
+}
+
+.footer-right {
+	flex: 1 1 50%;
+	text-align: right;
+}
